@@ -1,8 +1,44 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Nunito", sans-serif;
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  height: 100vh;
+  background-color: #e9edc9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  width: 60%;
+  min-height: 40%;
+  border-radius: 2rem;
+  border-radius: 0.25rem solid #d4a373;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  background-color: #e7c8a0;
+}
+
+.todo-list li {
+  list-style-type: none;
+  margin: 0.75rem 0;
+}
+
+.inputTodo {
+  width: 100%;
+  padding: 0.75rem 1rem;
+}
+
+.buttonTodo {
+  padding: 0.75rem 2rem;
+  border: 0.2rem solid;
+  background-color: transparent;
+  border-radius: 0.25rem;
 }

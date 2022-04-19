@@ -17,12 +17,25 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div></div>
-    <h1>ToDo List</h1>
-
-    <label for="name">Name</label>
-    <input type="text" name="name" id="" />
-
+    <div class="container">
+      <h1>ToDo List</h1>
+      <div class="todo-add-container">
+        <input
+          class="inputTodo"
+          type="text"
+          name="name"
+          id="inputTodo"
+          placeholder="Title..."
+        />
+        <button class="buttonTodo" id="addTodo">Add</button>
+      </div>
+      <ul class="todo-list">
+        <li class="placeholder-item">Placeholder-item</li>
+        <li class="placeholder-item">Placeholder-item</li>
+        <li class="placeholder-item">Placeholder-item</li>
+        <li class="placeholder-item">Placeholder-item</li>
+      </ul>
+    </div>
     <script src="./assets/js/app.js"></script>
   </body>
 </html>
