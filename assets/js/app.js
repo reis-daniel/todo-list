@@ -20,3 +20,17 @@ addButton.onclick = function addNewTodo() {
     window.alert("Bitte Todo eingeben!");
   }
 };
+
+// 1. Funktion/Button um Todos zu löschen
+
+// 2. Todos werden in JSON/CSV geschrieben und beim Reload geladen.
+
+// 3. Toggle Todos
+
+// 4. Abgeschlossene Todos in separaten unteren Bereich
+
+// 5. Fälligkeit und Prio
+
+// 6. Wenn Fälligkeit abläuft, list -> list-item-group-danger
+
+// 7. Drag and Drop von LI's
